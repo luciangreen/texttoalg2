@@ -1,7 +1,7 @@
 # texttoalg2
 Text to Algorithm 2
 
-Text to Algorithm 2 is a SWI-Prolog algorithm that is an extension to Text to Algorithm (which prepares to breason out file.txt in the Text to Breasonings folder) that only finds algorithms for the base form of verbs, philosophy and algorithms in the process.  It produces an algorithm for each word, producing a pastable Shell script file1a.txt, mainly used for postgraduate Pedagogy musings.  Breasoning is thinking of the x, y and z dimensions of objects, necessary for meeting grades.
+Text to Algorithm 2 is a SWI-Prolog algorithm that is an extension to Text to Algorithm (which prepares to breason out file.txt in the Text to Breasonings folder) that only finds algorithms for the base form of verbs, finding philosophy and algorithms in the process.  It produces an algorithm for each word, producing a pastable Shell script file1a.txt, mainly used for postgraduate Pedagogy musings.  Breasoning is thinking of the x, y and z dimensions of objects, necessary for meeting grades.
 
 # Getting Started
 
@@ -28,19 +28,21 @@ To use this algorithm, you need another window open to develop and test each spe
 
 * Download the repository to your machine.
 In the SWI-Prolog environment, enter the following to load the algorithm:
-`cd texttoalg`
-`['../Text-to-Breasonings/meditationnoreplace'].`
-`['../Text-to-Breasonings/texttobrall2'].`
-`['../texttoalg2/find_and_convert_verbs_to_base.pl'].`
+```
+cd texttoalg
+['../Text-to-Breasonings/meditationnoreplace'].
+['../Text-to-Breasonings/texttobrall2'].
+['../texttoalg2/find_and_convert_verbs_to_base.pl'].
+```
 
 * Enter the following to breason out verbs in Text-to-Breasonings/file.txt:
 `find_and_convert_verbs_to_base.`
-Note: only asks for algorithms for verbs (i.e. that have the object "right" in brdict1.txt), which are stripped of the prefixes and suffixes in texttoalg2/prefixes.txt and texttoalg2/suffixes.txt.
+Note: only asks for algorithms for verbs (i.e. that have the object "right" in brdict1.txt), which are stripped of the prefixes and suffixes in texttoalg2/prefixes.txt and texttoalg2/suffixes.txt respectively.
 
 
 * Before running texttobr, think of two radio buttons put on recordings, put through with prayer, nut and bolt, quantum box prayer 1, 1, 0.5 cm and 1, 1, 0.5 cm.
 
-* Follow instructions in https://github.com/luciangreen/listprologinterpreter/blob/master/Instructions_for_Using_texttobr(2).pl.txt when using texttoalg, texttobr, or texttobr2 to avoid medical problems.
+* Follow instructions in https://github.com/luciangreen/Text-to-Breasonings/blob/master/Instructions_for_Using_texttobr(2).pl.txt when using texttoalg, texttobr, or texttobr2 to avoid medical problems.
 
 * Before breasoning, breason out algdict1.txt and algdict2.txt to allow breasoning multiple instances by dragging them from Finder (Mac) to empty BBEdit window for file.txt, then enter:
 `['../Text-to-Breasonings/texttobrall2'].`
