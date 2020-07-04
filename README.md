@@ -27,9 +27,10 @@ To use this algorithm, you need another window open to develop and test each spe
 # Installing
 
 * Download the repository to your machine.
-In the SWI-Prolog environment, enter the following to load the algorithm:
+Enter the following to load the algorithm:
 ```
 cd texttoalg
+swipl
 ['../Text-to-Breasonings/meditationnoreplace'].
 ['../Text-to-Breasonings/texttobrall2'].
 ['../texttoalg2/find_and_convert_verbs_to_base.pl'].
