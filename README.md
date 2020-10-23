@@ -32,8 +32,7 @@ Enter the following to load the algorithm:
 `cd texttoalg` (sic)
 ```
 swipl
-['../Text-to-Breasonings/meditationnoreplace'].
-['../Text-to-Breasonings/texttobrall2'].
+['../Text-to-Breasonings/text_to_breasonings.pl'].
 ['../texttoalg2/find_and_convert_verbs_to_base.pl'].
 ```
 
@@ -50,8 +49,7 @@ Note: only asks for algorithms for verbs (i.e. that have the object "right" in b
 `cd ../Text-to-Breasonings`
 ```
 swipl
-['meditationnoreplace'].
-['texttobrall2'].
+['text_to_breasonings.pl'].
 texttobr2(u,u,u,u,true,false,false,false,false,false),texttobr(u,u,u,u).
 ```
 * Not recommended (due to idiosyncrasies of Shell, so breasoning out the dictionaries in the previous step may have to suffice): Copy and paste contents of file1a.txt into Terminal window (Mac) (one to a few lines at a time) to breason out algorithms for all instances of words.
