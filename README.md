@@ -3,38 +3,32 @@ Text to Algorithm 2
 
 Text to Algorithm 2 is a SWI-Prolog algorithm that is an extension to Text to Algorithm (which prepares to breason out file.txt in the Text to Breasonings folder) that only finds algorithms for the base form of verbs, finding philosophy and algorithms in the process.  It produces an algorithm for each word, producing a pastable Shell script file1a.txt, mainly used for postgraduate Pedagogy musings.  Breasoning is thinking of the x, y and z dimensions of objects, necessary for meeting grades.
 
-# Getting Started
-
-Please read the following instructions on how to install the project on your computer for breasoning out algorithms.
+To use this algorithm, you need another window open to develop and test each specification, algorithm and result, before pasting it into texttoalg.
 
 # Prerequisites
 
-Please download and install SWI-Prolog for your machine at https://www.swi-prolog.org/build/.
+* Please download and install SWI-Prolog for your machine at `https://www.swi-prolog.org/build/`.
 
-Install List Prolog Interpreter Repository (https://github.com/luciangreen/listprologinterpreter).
+# 1. Install manually
 
-Install Text to Breasonings Repository (https://github.com/luciangreen/Text-to-Breasonings).
+Download <a href="http://github.com/luciangreen/texttoalg2/">this repository</a>, the <a href="https://github.com/luciangreen/listprologinterpreter">List Prolog Interpreter Repository</a>, the <a href="https://github.com/luciangreen/Text-to-Breasonings">Text to Breasonings Repository</a> and the <a href="https://github.com/luciangreen/texttoalg">Text to Algorithm Repository</a>.
 
-Install Text to Algorithm Repository (https://github.com/luciangreen/texttoalg).
+# 2. Or Install from List Prolog Package Manager (LPPM)
 
-To use this algorithm, you need another window open to develop and test each specification, algorithm and result, before pasting it into texttoalg.
+* Download the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>:
 
-
-# Installation from List Prolog Package Manager (LPPM)
-
-* Optionally, you can install from LPPM by installing <a href="https://www.swi-prolog.org/build/">SWI-Prolog</a> for your machine, downloading the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>,
 ```
 git clone https://github.com/luciangreen/List-Prolog-Package-Manager.git
 cd List-Prolog-Package-Manager
 swipl
+['lppm'].
+lppm_install("luciangreen","texttoalg2")
+halt
 ```
-loading LPPM with `['lppm'].` then installing the package by running `lppm_install("luciangreen","texttoalg2").`.
 
-# Installing
+# Running
 
-* Download the repository to your machine.
-Enter the following to load the algorithm:
-
+* In Shell:
 `cd texttoalg` (sic)
 ```
 swipl
