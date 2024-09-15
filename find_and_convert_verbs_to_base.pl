@@ -17,8 +17,8 @@ phrase_from_file_s(string(BrDict0), "../Text-to-Breasonings/brdict1.txt"),
 	splitfurther(BrDict0,BrDict01),
 	sort(BrDict01,BrDict012),
 
-	SepandPad="&#@~%`$?-+*^,()|.:;=_/[]<>{}\n\r\s\t\\\"!'0123456789",
-	split_string(Text1,SepandPad,SepandPad,Text2a),
+	%SepandPad="&#@~%`$?-+*^,()|.:;=_/[]<>{}\n\r\s\t\\\"!'0123456789",
+	split_string_on_non_alpha(Text1,Text2a),
 	
 	delete(Text2a,"",Text222),
 findall(Text2a1,(member(Text2a1,Text222),member([Text2a1,"right"],BrDict012)),Text2a2).
