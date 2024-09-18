@@ -1,4 +1,4 @@
-:-include('../listprologinterpreter/la_strings').
+:-include('../listprologinterpreter/la_strings.pl').
 :-include('../texttoalg/texttoalg.pl').
 
 find_and_convert_verbs_to_base :-
